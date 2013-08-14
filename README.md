@@ -1,4 +1,4 @@
-twitter-api-testing
+twitterbotstrap
 ===================
 
-Messing around with twitter4j to check that stuff works.
+A base project for creating a twitter bot.
