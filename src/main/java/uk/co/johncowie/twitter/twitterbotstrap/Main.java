@@ -1,4 +1,4 @@
-package uk.co.johncowie.twitter.testing;
+package uk.co.johncowie.twitter.twitterbotstrap;
 
 import twitter4j.Twitter;
 import twitter4j.TwitterException;

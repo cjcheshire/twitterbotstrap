@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c5f2209-1608-46bc-99a3-9c22607a9a00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomRawStreamListener.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomRawStreamListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomUserStreamListener.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomUserStreamListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-api-testing.iml" afterPath="$PROJECT_DIR$/twitter-api-testing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitter-api-testing.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9c5f2209-1608-46bc-99a3-9c22607a9a00" time="1378196309064" ignored="false" />
-    <file path="/pom.xml" changelist="9c5f2209-1608-46bc-99a3-9c22607a9a00" time="1374480439817" ignored="false" />
+    <file path="/pom.xml" changelist="9c5f2209-1608-46bc-99a3-9c22607a9a00" time="1378197288391" ignored="false" />
     <file path="/Main.java" changelist="9c5f2209-1608-46bc-99a3-9c22607a9a00" time="1378196338681" ignored="false" />
     <file path="/CustomUserStreamListener.java" changelist="9c5f2209-1608-46bc-99a3-9c22607a9a00" time="1374480722901" ignored="false" />
     <file path="/CustomRawStreamListener.java" changelist="9c5f2209-1608-46bc-99a3-9c22607a9a00" time="1374481513056" ignored="false" />
@@ -76,19 +81,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0">
+            <state line="43" column="88" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.7619048">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="88" selection-start="746" selection-end="746" vertical-scroll-proportion="0.42203987">
+            <state line="12" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,18 +129,18 @@
         </entry>
       </file>
       <file leaf-file-name="CustomRawStreamListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomRawStreamListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomRawStreamListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="50" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="13" column="50" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CustomUserStreamListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomUserStreamListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomUserStreamListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="55" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0">
+            <state line="94" column="55" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,11 +164,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomUserStreamListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomRawStreamListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -238,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
+              <option name="myItemId" value="twitterbotstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,7 +277,7 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="uk.co.johncowie.twitter.testing.Main" />
+      <option name="MAIN_CLASS_NAME" value="uk.co.johncowie.twitter.twitterbotstrap.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -448,14 +460,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomRawStreamListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomRawStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="50" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomUserStreamListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomUserStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="55" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0">
           <folding />
@@ -469,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="51" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding>
@@ -485,23 +497,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomRawStreamListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomRawStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="50" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomUserStreamListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomUserStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="55" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -537,26 +542,33 @@
         <state line="72" column="28" selection-start="4015" selection-end="4015" vertical-scroll-proportion="0.729207" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomRawStreamListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomRawStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+        <state line="13" column="50" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/CustomUserStreamListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/CustomUserStreamListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="55" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0">
+        <state line="94" column="55" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/testing/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/johncowie/twitter/twitterbotstrap/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="88" selection-start="746" selection-end="746" vertical-scroll-proportion="0.42203987">
+        <state line="12" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="88" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.7619048">
+          <folding />
         </state>
       </provider>
     </entry>
