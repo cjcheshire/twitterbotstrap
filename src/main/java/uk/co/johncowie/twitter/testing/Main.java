@@ -14,13 +14,11 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException, TwitterException {
         PropertyConfiguration propertyConfiguration
-                = new PropertyConfiguration(new FileInputStream("/Users/jcowie/Dropbox/nuotltester.properties"));
+                = new PropertyConfiguration(new FileInputStream(args[0]));
         TwitterStream stream = new TwitterStreamFactory(propertyConfiguration).getInstance();
         final Twitter twitter = new TwitterFactory(propertyConfiguration).getInstance();
-//        twitter.createFriendship("nuotltestuser");
-        twitter.destroyFriendship("nuotltestuser");
         stream.addListener(new CustomUserStreamListener());
-        stream.addListener(new CustomRawStreamListener());
+//        stream.addListener(new CustomRawStreamListener());
         stream.user();
     }
 
