@@ -21,5 +21,12 @@ Getting Started
 
 7. Copy your consumer key, consumer secret, access key and access secret into the template.properties file in this repo
 
+8. Run ```mvn package```
+
+9. Run ```java -jar target/twitterbotstrap-1.0-SNAPSHOT.jar <my properties file>```
+
+If stuff is working you should now see a ton of tweets flying out of your console.
+
+
 
 
