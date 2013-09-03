@@ -12,7 +12,7 @@ public class CustomUserStreamListener implements UserStreamListener {
 
     @Override
     public void onDeletionNotice(long l, long l2) {
-        System.out.println("OnDeletionNotice (long, long) called.");
+        //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
@@ -92,12 +92,12 @@ public class CustomUserStreamListener implements UserStreamListener {
 
     @Override
     public void onStatus(Status status) {
-        System.out.println("onStatus(Status) called.");
+        System.out.println(status.getText());
     }
 
     @Override
     public void onDeletionNotice(StatusDeletionNotice statusDeletionNotice) {
-        System.out.println("onDeletionNotice(StatusDeletionNotice) called.");
+        //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override

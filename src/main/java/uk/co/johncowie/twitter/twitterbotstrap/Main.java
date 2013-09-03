@@ -19,7 +19,7 @@ public class Main {
         final Twitter twitter = new TwitterFactory(propertyConfiguration).getInstance();
         stream.addListener(new CustomUserStreamListener());
 //        stream.addListener(new CustomRawStreamListener());
-        stream.user();
+        stream.sample();
     }
 
 
